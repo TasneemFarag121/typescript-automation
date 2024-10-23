@@ -21,14 +21,15 @@
   },
   "homepage": "https://github.com/YahyaQandel/Cypress-web#readme",
   "devDependencies": {
-    "cypress": "^12.12.0",
+    "cypress": "10.11.0",
     "typescript": "^5.0.4"
   },
   "dependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^17.1.1",
-    "@cypress/browserify-preprocessor": "^3.0.2"
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "typescript-string-operations": "^1.5.1"
   },
   "cypress-cucumber-preprocessor": {
-    "stepDefinitions": "cypress/e2e/**/*.spec.ts"
+    "stepDefinitions": "cypress/e2e/**/*.ts"
   }
 }

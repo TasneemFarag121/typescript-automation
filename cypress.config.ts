@@ -20,7 +20,9 @@ async function setupNodeEvents(
 
 export default defineConfig({
   e2e: {
+    baseUrl:"https://test.kwentra.com",
     specPattern: "**/*.feature",
     setupNodeEvents,
   },
 });
+
